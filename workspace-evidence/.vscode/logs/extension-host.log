@@ -2,3 +2,4 @@
 2026-06-18T09:14:02.431Z [info] hello-world-extension activated
 2026-06-18T09:14:02.433Z [info] local diagnostics complete
 2026-06-18T09:14:02.434Z [info] recovery sequence: commit -> cache -> history
+2026-06-18T09:14:02.435Z [info] failed recovery: missing XOR key, using incident number.
