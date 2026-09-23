@@ -1,0 +1,25 @@
+{
+  "name": "hello-world-extension",
+  "displayName": "Hello World",
+  "description": "A minimal VS Code extension that prints hello world!",
+  "version": "0.0.1",
+  "publisher": "ctf",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "helloWorld.print",
+        "title": "Hello World: Print"
+      }
+    ]
+  }
+}
