@@ -1,0 +1,11 @@
+name: package-extension
+on:
+  workflow_dispatch:
+  push:
+    branches: [telemetry-build]
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: tar -czf extension.tgz package.json dist src
